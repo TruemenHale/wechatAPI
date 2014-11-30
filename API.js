@@ -17,7 +17,7 @@
  * 14、打开微信内置地图（认证过的公众号可用）
  * 15、发送电子邮件
  *
- * @author zhaoxianlie(http://www.baidufe.com)
+ * @author Hale
  */
 (function (window) {
 
