@@ -468,7 +468,6 @@
             callbacks.all && callbacks.all(resp);
         });
     };
-
     /**
      * 发送邮件
      * @param       {Object}  data      邮件初始内容
@@ -507,7 +506,6 @@
          * @param {Long}    columnNumber   出错代码的列号
          */
         window.onerror = function (errorMessage, scriptURI, lineNumber, columnNumber) {
-
             // 有callback的情况下，将错误信息传递到options.callback中
             if (typeof callback === 'function') {
                 callback({
